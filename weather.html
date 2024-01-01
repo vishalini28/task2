@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Weather APP</title>
+</head>
+<body>
+
+    <div class="main">
+
+         <div id="loader">
+          <img src="wired-outline-447-water-drop.gif" alt="">
+         </div>
+
+         <div class="ui">
+
+              <div class="nav">
+                <input type="text" placeholder="Enter your city name">
+                <i class="ri-search-2-line"></i>
+              </div>
+               
+              <!-- id starterdisplay -->
+              <div class="starter">
+                <img src="wired-outline-1-cloud.gif" alt="">
+                <h2>Live weather report</h2>
+              </div>
+               
+
+               <!-- id detailsdisplay -->
+              <div class="weatherdetails" id="detailsdisplay">
+                  <img id ="weathericon" src="wired-outline-1-cloud.gif" alt="">
+                  <h1><span class="temp_c">23</span><sup><i class="ri-circle-line"></i></sup>c</h1>
+                  <h3 class="info">Brocken Clouds</h3>
+                  <h3 class="quality"><i class="ri-map-pin-line"></i> <span class="place">Kathamandu</span>,<span class="state">Nepal</span></h3>
+              </div>
+
+              <div class="lastdetails" id="detailsdisplay">
+                     
+                  <div class="feels_like">
+                    <i class="ri-temp-hot-line"></i>
+                    <div>
+                         <h4 class="flk"><span>12</span><i class="ri-celsius-fill"></i></h4>
+                         <h3>feels like</h3>
+                    </div>
+                    
+                  </div>
+
+                  <div class="humidity">
+                    <i class="ri-contrast-drop-2-line"></i>
+                    <div>
+                         <h4 class="hum"><span>23</span><i class="ri-percent-line"></i></h4>
+                         <h3>humidity</h3>
+                    </div>
+                    
+                  </div>
+
+              </div>
+              
+              
+            </div>
+
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>
